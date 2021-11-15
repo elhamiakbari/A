@@ -4,23 +4,20 @@ body {
   margin: 0 auto;
   margin-top: 20px;
   max-width: 800px;
-  border: 1px solid black;
-  border-radius: 20px;
+  
 }
 .container{
 background: linear-gradient(0.25turn, #dfeef5, #73a0f5, #147cf3);
 border-radius: 10px;
-border-outline:nine;
+border-color: #032970;
 }
 
 h1 {
+      font-size: 36px;
       text-align: center;
-      padding: 10px;
-      font-family: "Roboto", sans-serif;
-      color: #f8f9fa;
-      position: relative;
-      right: 50px;
-      top: 40px;
+      padding: 5px;
+      font-family: "new roman", sans-serif;
+      color: #06376b;
     
 }
 
@@ -30,7 +27,7 @@ h3 {
 }
 
 .time {
-  font-size: larger;
+  font-size: 30px;
 }
 
 input {
@@ -47,12 +44,12 @@ button.search {
 
 .conditions {
   float: right;
-  margin-top: -150px;
+  margin-top: -100px;
 }
 
 .col {
   border: 1px solid black;
-  border-radius: 20px;
+  border-radius: 3px;
   margin: 20px 10px;
   text-align: center;
 }

@@ -60,7 +60,7 @@ function displayWeatherCondition(response) {
 }
 
 function searchCity(city) {
-  let apiKey = "008d27c5822351d9ca356a6720593b1c";
+  let apiKey = "fef90cf423cdd1a82c0f177876085211";
   let units = "metric";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
 
@@ -74,7 +74,7 @@ function inputCity(event) {
   searchCity(city);
 }
 
-
+//current location button
 
 function searchLocation(position) {
   let apiKey = "fef90cf423cdd1a82c0f177876085211";
